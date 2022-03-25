@@ -20,7 +20,7 @@ int recursion(int n){
 
 int main(){
     int n;
-    cout << "Enter a number: ";
+    cout << "Enter a number to calculate its factorial: ";
     cin >> n;
     cout << "With iteration: " << iteration(n) << endl;
     cout << "With recursion: " << recursion(n) << endl;
