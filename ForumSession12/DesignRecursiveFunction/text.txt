@@ -1,0 +1,6 @@
+general case:
+where to call the recursion, the function called inside it self with different parameter that will lead
+the result closer to the base case
+base case:
+the result case where there are nore recursion, or only one step process
+this also useful to stop the recursion process (loop)
