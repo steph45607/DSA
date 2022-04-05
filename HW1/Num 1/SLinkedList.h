@@ -2,7 +2,6 @@
 #define H_UNORDEREDLINKEDLIST
 
 #include "Node.h"
-#include "Iterator.h"
 
 template <class T>
 class SLinkedList

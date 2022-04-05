@@ -39,6 +39,5 @@ public:
 
 };
 
-#include "Iterator.cpp"
 
 #endif
