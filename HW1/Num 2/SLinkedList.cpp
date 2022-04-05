@@ -308,3 +308,11 @@ void SLinkedList<T>::ReversePrintRecursive(T* ptr){
         cout << ptr -> data << endl;
     }
 }
+
+template <class T>
+void SLinkedList<T>::ReversePrintIterative(T* ptr){
+    while(ptr != nullptr){
+        cout << ptr -> data << endl;
+        ptr = ptr -> link;
+    }
+}

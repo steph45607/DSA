@@ -10,4 +10,5 @@ int main(){
     arr.insertLast(5);
     arr.print();
     arr.ReversePrintRecursive();
+    arr.ReversePrintIterative();
 }
